@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div {
+            width: 400px;
+            border-radius: 10px;
+            background-color: rgb(127, 206, 127);
+            padding: 25px 0px;
+        }
+        .h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .saveBtn {
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: rgb(60, 132, 248);
+        }
+        .input {
+            padding: 5px 0px;
+        }
+        .childDiv1 {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+        }
+        .changeBtn {
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: rgb(60, 132, 248);;
+        }
+        .centerBtn {
+            display: flex;
+            justify-content: center;
+        }
+        .prompt {
+            color: red;
+        }
+        .div2 {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="div div1">
+        <h1 class="h1">Enter your name</h1>
+        <div class="childDiv1">
+            <input type="text" class="input">
+            <p class="prompt">Name must be filed</p>
+            <button class="saveBtn">Save</button>
+         </div>
+    </div>
+
+    <div class="div div2">
+        <h1 class="h1">👋 Chào bạn, [Tên]!</h1>
+        <div class="centerBtn">
+            <button class="changeBtn">Change Name</button>
+        </div>
+    </div>
+    <script src="bt1.js"></script>
+</html>
